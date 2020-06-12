@@ -1,0 +1,23 @@
+# - - - System messages - - -
+
+prefix: "&8» &dPerks &8| &7"
+no-permission: "&cYou have insufficient permissions to execute this command."
+
+perks-saved: "&aYour perks settings have been saved. You have &d[0] &aactive perks."
+
+# - - - Form UI - - -
+
+valid-permission: "&8» &aActivate"
+invalid-permission: "&8» &cRestricted"
+
+perk-menu-title: "Perks"
+perk-menu-falldamage: "&4No fall damage\n[0]"
+perk-menu-nohunger: "&cNo hunger\n[0]"
+perk-menu-speed: "&6Speed\n[0]"
+perk-menu-nightvision: "&gNight vision\n[0]"
+perk-menu-jumpboost: "&eJump boost\n[0]"
+perk-menu-firedamage: "&2No fire damage\n[0]"
+perk-menu-waterbreathing: "&aWater breathing\n[0]"
+perk-menu-fastbreak: "&bFast block break\n[0]"
+perk-menu-keepxp: "&9Keep experience\n[0]"
+perk-menu-keepinventory: "&5Keep inventory\n[0]"
