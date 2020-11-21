@@ -8,13 +8,13 @@ import java.util.Map;
 
 public class Language {
 
-    public static HashMap<String, String> messages = new HashMap<>();
+    public static Map<String, String> messages = new HashMap<>();
     public static String prefix;
 
-    public static void initConfiguration() {
+    public static void initConfiguration(final AdvancedPerks instance) {
         messages.clear();
-        AdvancedPerks.getInstance().saveResource("messages.yml");
-        Config m = new Config(AdvancedPerks.getInstance().getDataFolder() + "/messages.yml");
+        instance.saveResource("messages.yml");
+        Config m = new Config(instance.getDataFolder() + "/messages.yml");
         for (Map.Entry<String, Object> map : m.getAll().entrySet()) {
             String key = map.getKey();
             if (map.getValue() instanceof String) {
