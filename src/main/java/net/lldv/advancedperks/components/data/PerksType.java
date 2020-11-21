@@ -11,6 +11,9 @@ public enum PerksType {
     NO_FIRE_DAMAGE,
     KEEP_INVENTORY,
     KEEP_EXPERIENCE,
-    FAST_BLOCK_BREAK
+    FAST_BLOCK_BREAK,
+    STRENGTH,
+    REGENERATION,
+    DOUBLE_XP,
 
 }

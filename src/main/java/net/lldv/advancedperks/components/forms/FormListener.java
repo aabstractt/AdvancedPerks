@@ -16,5 +16,4 @@ public class FormListener implements Listener {
         if (event.getWindow() instanceof FormWindowCustom) FormHandler.handleCustom(event.getPlayer(), (FormWindowCustom) event.getWindow());
     }
 
-
 }

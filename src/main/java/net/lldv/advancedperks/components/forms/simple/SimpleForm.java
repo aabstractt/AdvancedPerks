@@ -5,7 +5,6 @@ import cn.nukkit.Server;
 import cn.nukkit.form.element.ElementButton;
 import cn.nukkit.form.response.FormResponseSimple;
 import cn.nukkit.form.window.FormWindowSimple;
-import net.lldv.advancedperks.AdvancedPerks;
 import net.lldv.advancedperks.components.forms.FormHandler;
 
 import java.util.HashMap;
@@ -35,7 +34,7 @@ public class SimpleForm {
         FormHandler.simplePending.put(player.getName(), this);
 
         player.showFormWindow(form);
-        Server.getInstance().getScheduler().scheduleDelayedTask(AdvancedPerks.getInstance(), () -> player.sendExperience(player.getExperience()), 20);
+        Server.getInstance().getScheduler().scheduleDelayedTask(() -> player.sendExperience(player.getExperience()), 20);
     }
 
     public void setClosed(Player player) {

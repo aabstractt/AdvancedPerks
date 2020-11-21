@@ -1,3 +1,5 @@
 Commands:
-  Perks: "perks"
-  PerksDescription: "Perks for players"
+  Perks:
+    Name: "perks"
+    Description: "Special perks for players"
+    Aliases: [ "perkui" ]
